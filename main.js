@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //move left and prevent collisions with shapes moving left
     function moveRight() {
         undraw()
-        const isAtRightEdge = curret.some(index => (currentPosition + index) % width === width - 1)
+        const isAtRightEdge = current.some(index => (currentPosition + index) % width === width - 1)
         if(!isAtRightEdge) currentPosition += 1
         if(current.some(index => squares[currentPosition + index].classList.contains('block2'))) {
             currentPosition -=1
