@@ -4,6 +4,9 @@ div {
     width: 20px;
 }
 
+
+
+
 .grid {
     height: 400px;
     width: 200px;
@@ -11,12 +14,26 @@ div {
     flex-wrap: wrap;
 } 
 
+
 .previous-grid {
     height: 80px;
     width: 80px;
     display: flex;
     flex-wrap: wrap;
+    
 }
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.game {
+    padding-top: 10px;
+}
+
 
 .previous-shape {
     height: 80px;
